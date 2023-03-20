@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from spam import spamModel
+from spam2 import spamModel
 
 
 app = Flask(__name__)

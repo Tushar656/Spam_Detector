@@ -90,7 +90,7 @@ def spamModel(test):
     prediction = tfidfRg.predict(input_data_features)
     return prediction
 
-# print(spamModel("Todays Voda numbers ending 7548 are selected to receive a $350 award. If you have a match please call 08712300220 quoting claim code 4041 standard rates app"))
+print(spamModel("Congratulations! You won 1 Lakh rupees on your mobile number, to recieve money call to 9161286870"))
 
 
 
